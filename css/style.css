@@ -1,0 +1,18 @@
+@import url(common.css);
+
+.postsArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 10px;
+    grid-gap: 10%;
+}
+
+.postsArea > * {
+    border: 2px solid aquamarine;
+}
+
+.post {
+    border-radius: 25px;
+    padding: 10px;
+}
